@@ -6,6 +6,10 @@ body {
 a {
   cursor: pointer !important;
 }
+.abt_img {
+  width: 450px;
+  height: 457px;
+}
 .ttl {
   font-size: 90px;
   color: #fff;
@@ -92,4 +96,17 @@ button.navbar-toggler.collapsed {
   color: #fff;
   text-decoration: none;
   transform: rotate(2deg);
+}
+
+@media screen and (max-width: 900) {
+  .abt_img {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .abt_img {
+    width: 100%;
+    margin-bottom: 45px;
+  }
 }
