@@ -3,6 +3,9 @@
 body {
   font-family: "Itim", cursive !important;
 }
+a {
+  cursor: pointer !important;
+}
 .ttl {
   font-size: 90px;
   color: #fff;
